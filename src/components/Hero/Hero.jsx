@@ -45,7 +45,7 @@ const Hero = () => {
           alt="shoe collection"
           width={610}
           height={500}
-          className="object-contain "
+          className="object-contain"
         />
         <ul className="flex absolute -bottom-[5%] gap-4 sm:gap-6 max-sm:px-6">
           {mainShoes.map((shoe) => (

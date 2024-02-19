@@ -34,7 +34,7 @@ const Header = () => {
       </div>
 
       <nav
-        className={`flex flex-col justify-evenly gap-8 max-lg:absolute max-lg:bg-primary max-lg:p-4 max-lg:w-[300px] max-lg:max-w-full max-lg:h-screen max-lg:right-full ${
+        className={`flex flex-col justify-evenly gap-8 max-lg:absolute z-50 max-lg:bg-primary max-lg:p-4 max-lg:w-[300px] max-lg:max-w-full max-lg:h-screen max-lg:right-full ${
           isNavClicked ? "max-lg:right-px" : "max-lg:-right-[600px]"
         } max-lg:top-0 transition-all`}
       >

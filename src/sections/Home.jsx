@@ -3,7 +3,7 @@ import Hero from "../components/Hero/Hero";
 
 const Home = () => {
   return (
-    <div className="relative overflow-hidden min-h-screen">
+    <div className="relative">
       <Header />
       <Hero />
     </div>
