@@ -2,9 +2,12 @@ import { shoe8 } from "../assets/imgs.index";
 import Button from "../components/Button";
 import Subtitle from "../components/Subtitle";
 
-const ShoesQuality = () => {
+const AboutUs = () => {
   return (
-    <section className="padding flex items-center justify-center gap-10 max-xl:flex-col max-container w-full">
+    <section
+      id="aboutUs"
+      className="padding flex items-center justify-center gap-10 max-xl:flex-col max-container w-full"
+    >
       <div>
         <Subtitle
           text={
@@ -32,4 +35,4 @@ const ShoesQuality = () => {
   );
 };
 
-export default ShoesQuality;
+export default AboutUs;

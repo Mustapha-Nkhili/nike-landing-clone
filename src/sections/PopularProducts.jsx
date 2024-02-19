@@ -4,7 +4,7 @@ import { popularProducts } from "../constants";
 
 function PopularProducts() {
   return (
-    <section className="padding max-container max-sm:mt-12">
+    <section className="padding max-container max-sm:mt-12" id="products">
       <Subtitle
         text={
           <>
