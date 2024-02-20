@@ -4,7 +4,7 @@ import { customerReviews } from "../constants";
 
 const CustomerReviews = () => {
   return (
-    <section className="padding-y max-container px-5 sm:px-0">
+    <section className="padding-y max-container px-5 sm:px-0 bg-pale-blue">
       <div className="sm:max-w-lg text-center m-auto w-fit mb-24">
         <Subtitle
           text={

@@ -4,6 +4,7 @@ import AboutUs from "./sections/AboutUs";
 import Services from "./sections/Services";
 import SpecialOffer from "./sections/SpecialOffer";
 import CustomerReviews from "./sections/CustomerReviews";
+import Subscribe from "./sections/Subscribe";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <SpecialOffer />
       <CustomerReviews />
+      <Subscribe />
     </>
   );
 }
