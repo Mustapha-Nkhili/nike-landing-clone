@@ -1,3 +1,4 @@
+import { shieldTick, support, truckFast } from "../assets/icons.index";
 import {
   bigShoe1,
   bigShoe2,
@@ -47,5 +48,26 @@ export const popularProducts = [
     name: "Nike Air Jordan-001",
     price: "230.60",
     rating: "4.1",
+  },
+];
+
+export const services = [
+  {
+    iconUrl: truckFast,
+    label: "free shipping",
+    description:
+      "Enjoy seamless shopping with our complimentary shipping service.",
+  },
+  {
+    iconUrl: shieldTick,
+    label: "Secure Payment",
+    description:
+      "Experience worry-free transactions with our secure payment options.",
+  },
+  {
+    iconUrl: support,
+    label: "Love to help you",
+    description:
+      "Our dedicated team is here to assist you every step of the way.",
   },
 ];
