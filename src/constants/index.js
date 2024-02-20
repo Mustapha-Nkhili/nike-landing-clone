@@ -3,6 +3,8 @@ import {
   bigShoe1,
   bigShoe2,
   bigShoe3,
+  customer1,
+  customer2,
   shoe4,
   shoe5,
   shoe6,
@@ -69,5 +71,20 @@ export const services = [
     label: "Love to help you",
     description:
       "Our dedicated team is here to assist you every step of the way.",
+  },
+];
+
+export const customerReviews = [
+  {
+    name: "Morich Brown",
+    text: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+    imgUrl: customer1,
+    rating: "4.5",
+  },
+  {
+    name: "Lota Mongeskar",
+    text: "The product not only met but exceeded my expectations. I'll definitely be a returning customer",
+    imgUrl: customer2,
+    rating: "4.7",
   },
 ];
